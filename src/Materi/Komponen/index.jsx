@@ -9,8 +9,8 @@ import FunctionalComponent from "./pembahasan/FunctionalComponent";
     render() {
         return (
             <div>
-                <ClassComponent/>
-                <FunctionalComponent />
+                <ClassComponent nama="M Rizki" />
+                <FunctionalComponent code="React" />
             </div>
         )
     }
