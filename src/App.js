@@ -1,12 +1,14 @@
 import './App.css';
-import Komponen from "./Materi/Komponen";
+import Form from './Materi/Form';
+
+
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Komponen />
+        <Form />
       </header>
     </div>
   );
