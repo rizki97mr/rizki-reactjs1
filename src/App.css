@@ -1,36 +1,52 @@
-body{
-  background: #bdc3c7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.myBG {
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1129&q=80);
+  background-size: cover;
 }
 
-.form {
-  background-color: white;
-  border-radius: 5px;
-  width: 550px;
-  margin: 200px auto;
-  padding: 20px;
+.navigation {
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+}
+
+.jumbotron {
+  height: 70%;
+  border-style: solid;
+  color: #F7F7F7;
+  background: #616571;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  height: 250px;
+  text-align: center;
 }
 
-.form-body{
-  text-align: left;
-  padding: 20px 10px;
-} 
-
-.form-body > *{
-  padding: 5px;
+.row {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-.form__label{
-  width: 40%;
+p {
+  color: black;
+  font-size: 25px;
 }
 
-.form_input{
-  width: 60%;
+.banner {
+  font-size: 3.rem;
+  color: white;
+  display: block;
+  z-index: 10;
+  top: 50%;
 }
 
-.footer{
+.text {
+  border-style: solid;
+  height: 30%;
+  color: #F7F7F7;
+  background: #93DEFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }

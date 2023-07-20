@@ -1,15 +1,17 @@
+import { Outlet } from 'react-router-dom';
 import './App.css';
-import Form from './Materi/Form';
-
+import Content from './Routing/Components/Content';
+import NavigationBar from './Routing/Components/NavigationBar';
 
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Form />
-      </header>
+    <div className="myBG">
+      <NavigationBar />
+      <Outlet />
+      <Content name="M RIZKI"/>
+      
     </div>
   );
 }
